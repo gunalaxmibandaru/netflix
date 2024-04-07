@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(53, 52, 52);
+}
+.banner-section-bg-container {
+    background-image: url("./netflix.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo-image{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    padding-left: 30px;
+}
+
+.navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.banner-section-content{
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    color:white;
+    margin-top: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.email-content{
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.email{
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+        background-color: darkgrey;
+        font-weight: bold;
+    box-shadow: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.submit{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
+.box2{
+   
+    border: 1px none;
+    background-color: rgb(114, 81, 81);
+}
+.box2-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box2-content{
+    color: white;
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.video{
+    margin: 35px;
+    padding: 20px;
+}
+.box3{
+   
+    border: 1px solid rgba(73, 46, 46, 0);
+    background-color: rgb(74, 37, 37);
+}
+.box6{
+    background-color: black;
+    color: white;
+    font-weight: bold;   
+}
+
+
+[data-tab-content]{
+    display: none;
+    background-color:rgb(197, 44, 44);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20PX;
+    font-family:cursive;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+.question1{
+    border: 1px solid black;
+    margin: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgb(60, 54, 54);
+    padding: 5px;
+}
+.question1:hover {
+    background-color: #2f3740;
+}
+ .footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer11:hover{
+     color: blue;
+}
+
+
